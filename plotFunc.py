@@ -299,30 +299,6 @@ def plotXYLogReg(X, Y, Xlabel, Ylabel, showLabel, parameters, area_list, noLabel
     Ynorm = np.array([int(x) for x in Ycopy >= frThreshold])
     print(Ynorm)
 
-        # Sample data
-    # X is your feature matrix, y is your target vector
-    # For instance, X might be the ages, and y might be binary labels (1 for High Wealth, 0 for Low Wealth)
-
-    # Splitting the data into training and testing sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
-
-    # Scaling the features (especially important if you have multiple features of different scales)
-    scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
-
-    # Training a logistic regression model
-    clf = LogisticRegression()
-    clf.fit(X_train_scaled, y_train)
-
-    # Predicting on the test set
-    y_pred = clf.predict(X_test_scaled)
-
-    # Evaluating the model
-    accuracy = accuracy_score(y_test, y_pred)
-    print(f"Accuracy: {accuracy:.2f}")
-
-
     #     logR = LogisticRegression(solver='liblinear', random_state=77).fit(X2d, Ynorm)
     #     c1, c0 = logR.coef_[0][0], logR.intercept_[0]
     #     print(c1, c0, logR.score(X2d, Ynorm), logR)
