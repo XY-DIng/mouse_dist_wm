@@ -19,7 +19,7 @@ Panels in Figure 1 can be acquired from loadDataProcessing.ipynb and makeFigures
 Panels in Figure 2 can be acquired from makeFigures.ipynb  
 Panels in Figure 3 can be acquired from mainSim.ipynb  
 Panels in Figure 4 can be acquired from makeFigures.ipynb  
-Panels in Figure 5 can be acquired from makeFigures_thal.ipynb
+Panels in Figure 5 can be acquired from makeFigures_thal.ipynb  
 Panels in Figure 6 can be acquired from loopMeasurement.ipynb  
 Panels in Figure 7 can be acquired from singleAreaLesion.ipynb  
 Panels in Figure 8 can be acquired from singleAreaLesion.ipynb  
