@@ -8,10 +8,11 @@ mainSim.ipynb
 makeFigures.ipynb  
 loopMeasurement.ipynb  
 singleAreaLesion.ipynb  
-mainSim-ThCX.ipynb
-mainSim-ThCXinhibitThalamus.ipynb
-mainSim-ThCXnoThalamus.ipynb
-makeFigures_thal.ipynb
+mainSim-ThCX.ipynb  
+mainSim-ThCXinhibitThalamus.ipynb  
+mainSim-ThCXnoThalamus.ipynb  
+makeFigures_thal.ipynb  
+processMulti.ipynb
 
 
 Panels in Figure 1 can be acquired from loadDataProcessing.ipynb and makeFigures.ipynb  
@@ -22,4 +23,4 @@ Panels in Figure 5 can be acquired from makeFigures_thal.ipynb
 Panels in Figure 6 can be acquired from loopMeasurement.ipynb  
 Panels in Figure 7 can be acquired from singleAreaLesion.ipynb  
 Panels in Figure 8 can be acquired from singleAreaLesion.ipynb  
-Panels in Figure 9 can be acquired from  
+Panels in Figure 9 can be acquired from processMulti.ipynb  
